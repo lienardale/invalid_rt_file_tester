@@ -1,69 +1,261 @@
-kill: 9380: No such process
-invalid_rt.sh: line 3:  9387 Terminated: 15          ./../miniRT srcs/0.cube >> test.log
-invalid_rt.sh: line 3:  9422 Terminated: 15          ./../miniRT srcs/$i.rt >> test.log
-invalid_rt.sh: line 3:  9438 Terminated: 15          ./../miniRT srcs/$i.rt >> test.log
-invalid_rt.sh: line 3:  9534 Terminated: 15          ./../miniRT srcs/$i.rt >> test.log
-invalid_rt.sh: line 3:  9542 Terminated: 15          ./../miniRT srcs/$i.rt >> test.log
-invalid_rt.sh: line 3:  9550 Terminated: 15          ./../miniRT srcs/$i.rt >> test.log
-invalid_rt.sh: line 3:  9565 Terminated: 15          ./../miniRT srcs/$i.rt >> test.log
-invalid_rt.sh: line 3:  9622 Terminated: 15          ./../miniRT srcs/$i.rt >> test.log
-invalid_rt.sh: line 3:  9630 Terminated: 15          ./../miniRT srcs/$i.rt >> test.log
-invalid_rt.sh: line 3:  9638 Terminated: 15          ./../miniRT srcs/$i.rt >> test.log
-invalid_rt.sh: line 3:  9646 Terminated: 15          ./../miniRT srcs/$i.rt >> test.log
-invalid_rt.sh: line 3:  9668 Terminated: 15          ./../miniRT srcs/$i.rt >> test.log
-invalid_rt.sh: line 3:  9676 Terminated: 15          ./../miniRT srcs/$i.rt >> test.log
-invalid_rt.sh: line 3:  9684 Terminated: 15          ./../miniRT srcs/$i.rt >> test.log
-invalid_rt.sh: line 3:  9692 Terminated: 15          ./../miniRT srcs/$i.rt >> test.log
-invalid_rt.sh: line 3:  9700 Terminated: 15          ./../miniRT srcs/$i.rt >> test.log
-invalid_rt.sh: line 3:  9708 Terminated: 15          ./../miniRT srcs/$i.rt >> test.log
-invalid_rt.sh: line 3:  9723 Terminated: 15          ./../miniRT srcs/$i.rt >> test.log
-invalid_rt.sh: line 3:  9766 Terminated: 15          ./../miniRT srcs/$i.rt >> test.log
-invalid_rt.sh: line 3:  9774 Terminated: 15          ./../miniRT srcs/$i.rt >> test.log
-invalid_rt.sh: line 3:  9803 Terminated: 15          ./../miniRT srcs/$i.rt >> test.log
-invalid_rt.sh: line 3:  9860 Terminated: 15          ./../miniRT srcs/$i.rt >> test.log
-invalid_rt.sh: line 3:  9868 Terminated: 15          ./../miniRT srcs/$i.rt >> test.log
-invalid_rt.sh: line 3:  9876 Terminated: 15          ./../miniRT srcs/$i.rt >> test.log
-invalid_rt.sh: line 3:  9884 Terminated: 15          ./../miniRT srcs/$i.rt >> test.log
-invalid_rt.sh: line 3:  9892 Terminated: 15          ./../miniRT srcs/$i.rt >> test.log
-invalid_rt.sh: line 3:  9914 Terminated: 15          ./../miniRT srcs/$i.rt >> test.log
-invalid_rt.sh: line 3:  9929 Terminated: 15          ./../miniRT srcs/$i.rt >> test.log
-invalid_rt.sh: line 3:  9937 Terminated: 15          ./../miniRT srcs/$i.rt >> test.log
-invalid_rt.sh: line 3:  9946 Terminated: 15          ./../miniRT srcs/$i.rt >> test.log
-invalid_rt.sh: line 3: 10026 Terminated: 15          ./../miniRT srcs/$i.rt >> test.log
-invalid_rt.sh: line 3: 10034 Terminated: 15          ./../miniRT srcs/$i.rt >> test.log
-invalid_rt.sh: line 3: 10063 Terminated: 15          ./../miniRT srcs/$i.rt >> test.log
-invalid_rt.sh: line 3: 10071 Terminated: 15          ./../miniRT srcs/$i.rt >> test.log
-invalid_rt.sh: line 3: 10310 Terminated: 15          ./../miniRT srcs/$i.rt >> test.log
-invalid_rt.sh: line 3: 10318 Terminated: 15          ./../miniRT srcs/$i.rt >> test.log
-invalid_rt.sh: line 3: 10326 Terminated: 15          ./../miniRT srcs/$i.rt >> test.log
-invalid_rt.sh: line 3: 10334 Terminated: 15          ./../miniRT srcs/$i.rt >> test.log
-invalid_rt.sh: line 3: 10342 Terminated: 15          ./../miniRT srcs/$i.rt >> test.log
-invalid_rt.sh: line 3: 10350 Terminated: 15          ./../miniRT srcs/$i.rt >> test.log
-invalid_rt.sh: line 3: 10358 Terminated: 15          ./../miniRT srcs/$i.rt >> test.log
-invalid_rt.sh: line 3: 10366 Terminated: 15          ./../miniRT srcs/$i.rt >> test.log
-invalid_rt.sh: line 3: 10430 Terminated: 15          ./../miniRT srcs/$i.rt >> test.log
-invalid_rt.sh: line 3: 10438 Terminated: 15          ./../miniRT srcs/$i.rt >> test.log
-invalid_rt.sh: line 3: 10446 Terminated: 15          ./../miniRT srcs/$i.rt >> test.log
-invalid_rt.sh: line 3: 10454 Terminated: 15          ./../miniRT srcs/$i.rt >> test.log
-invalid_rt.sh: line 3: 10463 Terminated: 15          ./../miniRT srcs/$i.rt >> test.log
-invalid_rt.sh: line 3: 10471 Terminated: 15          ./../miniRT srcs/$i.rt >> test.log
-invalid_rt.sh: line 3: 10479 Terminated: 15          ./../miniRT srcs/$i.rt >> test.log
-invalid_rt.sh: line 3: 10487 Terminated: 15          ./../miniRT srcs/$i.rt >> test.log
-invalid_rt.sh: line 3: 10537 Terminated: 15          ./../miniRT srcs/$i.rt >> test.log
-invalid_rt.sh: line 3: 10545 Terminated: 15          ./../miniRT srcs/$i.rt >> test.log
-invalid_rt.sh: line 3: 10567 Terminated: 15          ./../miniRT srcs/$i.rt >> test.log
-invalid_rt.sh: line 3: 10575 Terminated: 15          ./../miniRT srcs/$i.rt >> test.log
-invalid_rt.sh: line 3: 10597 Terminated: 15          ./../miniRT srcs/$i.rt >> test.log
-invalid_rt.sh: line 3: 10605 Terminated: 15          ./../miniRT srcs/$i.rt >> test.log
-invalid_rt.sh: line 3: 10627 Terminated: 15          ./../miniRT srcs/$i.rt >> test.log
-invalid_rt.sh: line 3: 10635 Terminated: 15          ./../miniRT srcs/$i.rt >> test.log
-invalid_rt.sh: line 3: 10657 Terminated: 15          ./../miniRT srcs/$i.rt >> test.log
-invalid_rt.sh: line 3: 10665 Terminated: 15          ./../miniRT srcs/$i.rt >> test.log
-invalid_rt.sh: line 3: 10687 Terminated: 15          ./../miniRT srcs/$i.rt >> test.log
-invalid_rt.sh: line 3: 10695 Terminated: 15          ./../miniRT srcs/$i.rt >> test.log
-invalid_rt.sh: line 3: 10745 Terminated: 15          ./../miniRT srcs/$i.rt >> test.log
-invalid_rt.sh: line 3: 10753 Terminated: 15          ./../miniRT srcs/$i.rt >> test.log
-invalid_rt.sh: line 3: 10761 Terminated: 15          ./../miniRT srcs/$i.rt >> test.log
-invalid_rt.sh: line 3: 10769 Terminated: 15          ./../miniRT srcs/$i.rt >> test.log
-invalid_rt.sh: line 3: 10777 Terminated: 15          ./../miniRT srcs/$i.rt >> test.log
-invalid_rt.sh: line 3: 10785 Terminated: 15          ./../miniRT srcs/$i.rt >> test.log
+Test non-exist:
+Test .cube:
+invalid_rt.sh: line 3: 39440 Terminated: 15          ./../miniRT srcs/0.cube >> test.log
+Test 0:
+Test 1:
+Test 2:
+Test 3:
+Test 4:
+invalid_rt.sh: line 3: 39477 Terminated: 15          ./../miniRT srcs/$i.rt >> test.log
+Test 5:
+Test 6:
+invalid_rt.sh: line 3: 39492 Terminated: 15          ./../miniRT srcs/$i.rt >> test.log
+Test 7:
+Test 8:
+Test 9:
+Test 10:
+Test 11:
+Test 12:
+Test 13:
+Test 14:
+Test 15:
+Test 16:
+Test 17:
+Test 18:
+Test 19:
+invalid_rt.sh: line 3: 39587 Terminated: 15          ./../miniRT srcs/$i.rt >> test.log
+Test 20:
+invalid_rt.sh: line 3: 39595 Terminated: 15          ./../miniRT srcs/$i.rt >> test.log
+Test 21:
+invalid_rt.sh: line 3: 39603 Terminated: 15          ./../miniRT srcs/$i.rt >> test.log
+Test 22:
+Test 23:
+invalid_rt.sh: line 3: 39618 Terminated: 15          ./../miniRT srcs/$i.rt >> test.log
+Test 24:
+Test 25:
+Test 26:
+Test 27:
+Test 28:
+Test 29:
+Test 30:
+Test 31:
+invalid_rt.sh: line 3: 39675 Terminated: 15          ./../miniRT srcs/$i.rt >> test.log
+Test 32:
+invalid_rt.sh: line 3: 39683 Terminated: 15          ./../miniRT srcs/$i.rt >> test.log
+Test 33:
+invalid_rt.sh: line 3: 39691 Terminated: 15          ./../miniRT srcs/$i.rt >> test.log
+Test 34:
+invalid_rt.sh: line 3: 39699 Terminated: 15          ./../miniRT srcs/$i.rt >> test.log
+Test 35:
+Test 36:
+Test 37:
+invalid_rt.sh: line 3: 39721 Terminated: 15          ./../miniRT srcs/$i.rt >> test.log
+Test 38:
+invalid_rt.sh: line 3: 39729 Terminated: 15          ./../miniRT srcs/$i.rt >> test.log
+Test 39:
+invalid_rt.sh: line 3: 39737 Terminated: 15          ./../miniRT srcs/$i.rt >> test.log
+Test 40:
+invalid_rt.sh: line 3: 39745 Terminated: 15          ./../miniRT srcs/$i.rt >> test.log
+Test 41:
+invalid_rt.sh: line 3: 39753 Terminated: 15          ./../miniRT srcs/$i.rt >> test.log
+Test 42:
+invalid_rt.sh: line 3: 39761 Terminated: 15          ./../miniRT srcs/$i.rt >> test.log
+Test 43:
+Test 44:
+invalid_rt.sh: line 3: 39776 Terminated: 15          ./../miniRT srcs/$i.rt >> test.log
+Test 45:
+Test 46:
+Test 47:
+Test 48:
+Test 49:
+Test 50:
+invalid_rt.sh: line 3: 39819 Terminated: 15          ./../miniRT srcs/$i.rt >> test.log
+Test 51:
+invalid_rt.sh: line 3: 39827 Terminated: 15          ./../miniRT srcs/$i.rt >> test.log
+Test 52:
+Test 53:
+Test 54:
+Test 55:
+invalid_rt.sh: line 3: 39856 Terminated: 15          ./../miniRT srcs/$i.rt >> test.log
+Test 56:
+Test 57:
+Test 58:
+Test 59:
+Test 60:
+Test 61:
+Test 62:
+Test 63:
+invalid_rt.sh: line 3: 39913 Terminated: 15          ./../miniRT srcs/$i.rt >> test.log
+Test 64:
+invalid_rt.sh: line 3: 39921 Terminated: 15          ./../miniRT srcs/$i.rt >> test.log
+Test 65:
+invalid_rt.sh: line 3: 39929 Terminated: 15          ./../miniRT srcs/$i.rt >> test.log
+Test 66:
+invalid_rt.sh: line 3: 39937 Terminated: 15          ./../miniRT srcs/$i.rt >> test.log
+Test 67:
+invalid_rt.sh: line 3: 39945 Terminated: 15          ./../miniRT srcs/$i.rt >> test.log
+Test 68:
+Test 69:
+Test 70:
+invalid_rt.sh: line 3: 39967 Terminated: 15          ./../miniRT srcs/$i.rt >> test.log
+Test 71:
+Test 72:
+invalid_rt.sh: line 3: 39982 Terminated: 15          ./../miniRT srcs/$i.rt >> test.log
+Test 73:
+invalid_rt.sh: line 3: 39990 Terminated: 15          ./../miniRT srcs/$i.rt >> test.log
+Test 74:
+invalid_rt.sh: line 3: 39998 Terminated: 15          ./../miniRT srcs/$i.rt >> test.log
+Test 75:
+Test 76:
+Test 77:
+Test 78:
+Test 79:
+Test 80:
+Test 81:
+Test 82:
+Test 83:
+Test 84:
+Test 85:
+invalid_rt.sh: line 3: 40076 Terminated: 15          ./../miniRT srcs/$i.rt >> test.log
+Test 86:
+invalid_rt.sh: line 3: 40084 Terminated: 15          ./../miniRT srcs/$i.rt >> test.log
+Test 87:
+Test 88:
+Test 89:
+Test 90:
+invalid_rt.sh: line 3: 40113 Terminated: 15          ./../miniRT srcs/$i.rt >> test.log
+Test 91:
+invalid_rt.sh: line 3: 40121 Terminated: 15          ./../miniRT srcs/$i.rt >> test.log
+Test 92:
+Test 93:
+Test 94:
+Test 95:
+Test 96:
+Test 97:
+Test 98:
+Test 99:
+Test 100:
+Test 101:
+Test 102:
+Test 103:
+Test 104:
+Test 105:
+Test 106:
+Test 107:
+Test 108:
+Test 109:
+Test 110:
+Test 111:
+Test 112:
+Test 113:
+Test 114:
+Test 115:
+Test 116:
+Test 117:
+Test 118:
+Test 119:
+Test 120:
+Test 121:
+Test 122:
+Test 123:
+Test 124:
+Test 125:
+invalid_rt.sh: line 3: 40360 Terminated: 15          ./../miniRT srcs/$i.rt >> test.log
+Test 126:
+invalid_rt.sh: line 3: 40368 Terminated: 15          ./../miniRT srcs/$i.rt >> test.log
+Test 127:
+invalid_rt.sh: line 3: 40376 Terminated: 15          ./../miniRT srcs/$i.rt >> test.log
+Test 128:
+invalid_rt.sh: line 3: 40384 Terminated: 15          ./../miniRT srcs/$i.rt >> test.log
+Test 129:
+invalid_rt.sh: line 3: 40392 Terminated: 15          ./../miniRT srcs/$i.rt >> test.log
+Test 130:
+invalid_rt.sh: line 3: 40400 Terminated: 15          ./../miniRT srcs/$i.rt >> test.log
+Test 131:
+invalid_rt.sh: line 3: 40408 Terminated: 15          ./../miniRT srcs/$i.rt >> test.log
+Test 132:
+invalid_rt.sh: line 3: 40416 Terminated: 15          ./../miniRT srcs/$i.rt >> test.log
+Test 133:
+Test 134:
+Test 135:
+Test 136:
+Test 137:
+Test 138:
+Test 139:
+Test 140:
+Test 141:
+invalid_rt.sh: line 3: 40480 Terminated: 15          ./../miniRT srcs/$i.rt >> test.log
+Test 142:
+invalid_rt.sh: line 3: 40488 Terminated: 15          ./../miniRT srcs/$i.rt >> test.log
+Test 143:
+invalid_rt.sh: line 3: 40496 Terminated: 15          ./../miniRT srcs/$i.rt >> test.log
+Test 144:
+invalid_rt.sh: line 3: 40504 Terminated: 15          ./../miniRT srcs/$i.rt >> test.log
+Test 145:
+invalid_rt.sh: line 3: 40512 Terminated: 15          ./../miniRT srcs/$i.rt >> test.log
+Test 146:
+invalid_rt.sh: line 3: 40520 Terminated: 15          ./../miniRT srcs/$i.rt >> test.log
+Test 147:
+invalid_rt.sh: line 3: 40528 Terminated: 15          ./../miniRT srcs/$i.rt >> test.log
+Test 148:
+invalid_rt.sh: line 3: 40536 Terminated: 15          ./../miniRT srcs/$i.rt >> test.log
+Test 149:
+Test 150:
+Test 151:
+Test 152:
+Test 153:
+Test 154:
+Test 155:
+invalid_rt.sh: line 3: 40586 Terminated: 15          ./../miniRT srcs/$i.rt >> test.log
+Test 156:
+invalid_rt.sh: line 3: 40594 Terminated: 15          ./../miniRT srcs/$i.rt >> test.log
+Test 157:
+Test 158:
+Test 159:
+invalid_rt.sh: line 3: 40616 Terminated: 15          ./../miniRT srcs/$i.rt >> test.log
+Test 160:
+invalid_rt.sh: line 3: 40624 Terminated: 15          ./../miniRT srcs/$i.rt >> test.log
+Test 161:
+Test 162:
+Test 163:
+invalid_rt.sh: line 3: 40646 Terminated: 15          ./../miniRT srcs/$i.rt >> test.log
+Test 164:
+invalid_rt.sh: line 3: 40654 Terminated: 15          ./../miniRT srcs/$i.rt >> test.log
+Test 165:
+Test 166:
+Test 167:
+invalid_rt.sh: line 3: 40676 Terminated: 15          ./../miniRT srcs/$i.rt >> test.log
+Test 168:
+invalid_rt.sh: line 3: 40684 Terminated: 15          ./../miniRT srcs/$i.rt >> test.log
+Test 169:
+Test 170:
+Test 171:
+invalid_rt.sh: line 3: 40706 Terminated: 15          ./../miniRT srcs/$i.rt >> test.log
+Test 172:
+invalid_rt.sh: line 3: 40714 Terminated: 15          ./../miniRT srcs/$i.rt >> test.log
+Test 173:
+Test 174:
+Test 175:
+invalid_rt.sh: line 3: 40736 Terminated: 15          ./../miniRT srcs/$i.rt >> test.log
+Test 176:
+invalid_rt.sh: line 3: 40744 Terminated: 15          ./../miniRT srcs/$i.rt >> test.log
+Test 177:
+Test 178:
+Test 179:
+Test 180:
+Test 181:
+Test 182:
+Test 183:
+invalid_rt.sh: line 3: 40794 Terminated: 15          ./../miniRT srcs/$i.rt >> test.log
+Test 184:
+invalid_rt.sh: line 3: 40802 Terminated: 15          ./../miniRT srcs/$i.rt >> test.log
+Test 185:
+invalid_rt.sh: line 3: 40810 Terminated: 15          ./../miniRT srcs/$i.rt >> test.log
+Test 186:
+invalid_rt.sh: line 3: 40818 Terminated: 15          ./../miniRT srcs/$i.rt >> test.log
+Test 187:
+invalid_rt.sh: line 3: 40826 Terminated: 15          ./../miniRT srcs/$i.rt >> test.log
+Test 188:
+invalid_rt.sh: line 3: 40834 Terminated: 15          ./../miniRT srcs/$i.rt >> test.log
+Test 189:
+Test 190:
