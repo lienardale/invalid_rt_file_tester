@@ -5,7 +5,6 @@ rm -f test.log
 cd ../
 make
 cd invalid_rt_file_tester
-echo '' >> test.log
 echo "Test non-exist:" >> test.log
 echo "Test non-exist:" >> kill.log
 ./../miniRT srcs/error.rt >> test.log &
