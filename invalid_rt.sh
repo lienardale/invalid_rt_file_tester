@@ -18,7 +18,7 @@ sleep 0.05
 ps -ef | grep "miniRT" | grep -v 'grep' | awk '{print $2}' | xargs kill 1>&2
 i=0
 while true; do
-	if [[ "$i" -gt 190 ]]; then
+	if [[ "$i" -gt 191 ]]; then
 		exit 1
 	fi
 	echo '' >> test.log

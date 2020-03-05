@@ -174,7 +174,6 @@ Test 170:
 Test 171:
 Test 172:
 Test 173:
-invalid_rt.sh: line 3: 16740 Terminated: 15          ./../miniRT srcs/$i.rt >> test.log
 Test 174:
 Test 175:
 Test 176:
@@ -192,3 +191,4 @@ Test 187:
 Test 188:
 Test 189:
 Test 190:
+Test 191:
