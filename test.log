@@ -5,6 +5,8 @@ Test non-exist0:
 Error 
 2 : failed to open.
 Test non-exist1:
+Error 
+0 : invalid number of arguments.
 Test multi-arg0:
 Test multi-arg1:
 Error 
@@ -781,3 +783,5 @@ Error
 Test 191:
 Error 
 5 : invalid line id.
+Test multi-arg0:
+Test multi-arg1:

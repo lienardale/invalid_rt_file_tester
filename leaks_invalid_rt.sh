@@ -3,8 +3,26 @@ rm -f test_leaks.log
 cd ../
 make
 cd invalid_rt_file_tester
-echo "Test non-exist:" >> test_leaks.log
+
+echo "Test no arg:" >> test_leaks.log
+./../miniRT | grep "leaks for" | cut -d':' -f2 >> test_leaks.log
+
+echo '' >> test_leaks.log
+echo "Test non-exist0:" >> test_leaks.log
 ./../miniRT srcs/error.rt | grep "leaks for" | cut -d':' -f2 >> test_leaks.log
+
+echo '' >> test_leaks.log
+echo "Test non-exist0:" >> test_leaks.log
+./../miniRT srcs/error | grep "leaks for" | cut -d':' -f2 >> test_leaks.log
+
+echo '' >> test_leaks.log
+echo "Test multi-arg0:" >> test_leaks.log
+./../miniRT srcs/objects.rt srcs/objects.rt | grep "leaks for" | cut -d':' -f2 >> test_leaks.log
+
+echo '' >> test_leaks.log
+echo "Test multi-arg1:" >> test_leaks.log
+./../miniRT srcs/objects.rt srcs/objects.rt srcs/objects.rt | grep "leaks for" | cut -d':' -f2 >> test_leaks.log
+
 echo '' >> test_leaks.log
 echo "Test .cube:" >> test_leaks.log
 ./../miniRT srcs/0.cube | grep "leaks for" | cut -d':' -f2 >> test_leaks.log

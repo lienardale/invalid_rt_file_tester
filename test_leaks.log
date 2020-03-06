@@ -1,4 +1,16 @@
-Test non-exist:
+Test no arg:
+ 0 leaks for 0 total leaked bytes.
+
+Test non-exist0:
+ 0 leaks for 0 total leaked bytes.
+
+Test non-exist0:
+ 0 leaks for 0 total leaked bytes.
+
+Test multi-arg0:
+ 0 leaks for 0 total leaked bytes.
+
+Test multi-arg1:
  0 leaks for 0 total leaked bytes.
 
 Test .cube:
