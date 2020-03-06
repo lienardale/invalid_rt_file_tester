@@ -5,11 +5,37 @@ rm -f test.log
 cd ../
 make
 cd invalid_rt_file_tester
-echo "Test non-exist:" >> test.log
-echo "Test non-exist:" >> kill.log
+
+echo "Test no arg:" >> test.log
+echo "Test no arg:" >> kill.log
+./../miniRT >> test.log &
+sleep 0.05
+ps -ef | grep "miniRT" | grep -v 'grep' | awk '{print $2}' | xargs kill 1>&2
+
+echo "Test non-exist0:" >> test.log
+echo "Test non-exist0:" >> kill.log
 ./../miniRT srcs/error.rt >> test.log &
 sleep 0.05
 ps -ef | grep "miniRT" | grep -v 'grep' | awk '{print $2}' | xargs kill 1>&2
+
+echo "Test non-exist1:" >> test.log
+echo "Test non-exist1:" >> kill.log
+./../miniRT srcs/error >> test.log &
+sleep 0.05
+ps -ef | grep "miniRT" | grep -v 'grep' | awk '{print $2}' | xargs kill 1>&2
+
+echo "Test multi-arg0:" >> test.log
+echo "Test multi-arg0:" >> kill.log
+./../miniRT srcs/objects.rt srcs/objects.rt >> test.log &
+sleep 0.05
+ps -ef | grep "miniRT" | grep -v 'grep' | awk '{print $2}' | xargs kill 1>&2
+
+echo "Test multi-arg1:" >> test.log
+echo "Test multi-arg1:" >> kill.log
+./../miniRT srcs/objects.rt srcs/objects.rt srcs/objects.rt >> test.log &
+sleep 0.05
+ps -ef | grep "miniRT" | grep -v 'grep' | awk '{print $2}' | xargs kill 1>&2
+
 echo '' >> test.log
 echo "Test .cube:" >> test.log
 echo "Test .cube:" >> kill.log
