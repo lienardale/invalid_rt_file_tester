@@ -8,15 +8,15 @@ Error
 
 Test 0:
 Error 
-0 : invalid number of  resol lines instead of one.
+0 : invalid number of resolution lines, should be one.
 
 Test 1:
 Error 
-3 : non digit params in resolution line.
+3 : non digit parameters in resolution line.
 
 Test 2:
 Error 
-3 : non digit params in amb_light line.
+3 : non digit parameters in amb_light line.
 
 Test 3:
 Error 
@@ -24,23 +24,23 @@ Error
 
 Test 4:
 Error 
-3 : non digit params in resolution line.
+3 : non digit parameters in resolution line.
 
 Test 5:
 Error 
-3 : non digit params in amb_light line.
+3 : non digit parameters in amb_light line.
 
 Test 6:
 Error 
-3 : non digit params in amb_light line.
+3 : non digit parameters in amb_light line.
 
 Test 7:
 Error 
-4 : too much params in amb_light line.
+4 : too much parameters in amb_light line.
 
 Test 8:
 Error 
-4 : too much params in amb_light line.
+4 : too much parameters in amb_light line.
 
 Test 9:
 Error 
@@ -48,31 +48,31 @@ Error
 
 Test 10:
 Error 
-3 : non digit params in camera line.
+3 : non digit parameters in camera line.
 
 Test 11:
 Error 
-7 : invalid camera orientation params.
+7 : invalid camera orientation parameters.
 
 Test 12:
 Error 
-7 : invalid point params.
+7 : invalid point parameters.
 
 Test 13:
 Error 
-7 : invalid camera params, no fov params.
+7 : invalid camera params, no fov parameters.
 
 Test 14:
 Error 
-7 : invalid camera fov params.
+7 : invalid camera fov parameters.
 
 Test 15:
 Error 
-4 : too much params in camera line.
+4 : too much parameters in camera line.
 
 Test 16:
 Error 
-7 : invalid camera fov params.
+7 : invalid camera fov parameters.
 
 Test 17:
 Error 
@@ -84,15 +84,15 @@ Error
 
 Test 19:
 Error 
-7 : invalid point params.
+7 : invalid point parameters.
 
 Test 20:
 Error 
-7 : invalid point params.
+7 : invalid point parameters.
 
 Test 21:
 Error 
-7 : invalid point params.
+7 : invalid point parameters.
 
 Test 22:
 Error 
@@ -100,35 +100,35 @@ Error
 
 Test 23:
 Error 
-4 : too much params in light line.
+4 : too much parameters in light line.
 
 Test 24:
 Error 
-7 : invalid cylinder point params.
+7 : invalid cylinder point parameters.
 
 Test 25:
 Error 
-7 : invalid cylinder orientation params.
+7 : invalid cylinder orientation parameters.
 
 Test 26:
 Error 
-7 : invalid cylinder diameter params.
+7 : invalid cylinder diameter parameters.
 
 Test 27:
 Error 
-7 : invalid cylinder height params.
+7 : invalid cylinder height parameters.
 
 Test 28:
 Error 
-7 : invalid cylinder color params.
+7 : invalid cylinder color parameters.
 
 Test 29:
 Error 
-4 : too much params in cylinder line.
+4 : too much parameters in cylinder line.
 
 Test 30:
 Error 
-4 : too much params in cylinder line.
+4 : too much parameters in cylinder line.
 
 Test 31:
 Error 
@@ -148,11 +148,11 @@ Error
 
 Test 35:
 Error 
-7 : invalid cylinder height params.
+7 : invalid cylinder height parameters.
 
 Test 36:
 Error 
-7 : invalid cylinder diameter params.
+7 : invalid cylinder diameter parameters.
 
 Test 37:
 Error 
@@ -164,43 +164,43 @@ Error
 
 Test 39:
 Error 
-7 : invalid point params.
+7 : invalid point parameters.
 
 Test 40:
 Error 
-7 : invalid point params.
+7 : invalid point parameters.
 
 Test 41:
 Error 
-7 : invalid point params.
+7 : invalid point parameters.
 
 Test 42:
 Error 
-7 : invalid point params.
+7 : invalid point parameters.
 
 Test 43:
 Error 
-3 : non digit params in light line.
+3 : non digit parameters in light line.
 
 Test 44:
 Error 
-7 : invalid light color params.
+7 : invalid light color parameters.
 
 Test 45:
 Error 
-7 : invalid light color params.
+7 : invalid light color parameters.
 
 Test 46:
 Error 
-7 : invalid point params.
+7 : invalid point parameters.
 
 Test 47:
 Error 
-4 : too much params in light line.
+4 : too much parameters in light line.
 
 Test 48:
 Error 
-4 : too much params in light line.
+4 : too much parameters in light line.
 
 Test 49:
 Error 
@@ -208,19 +208,19 @@ Error
 
 Test 50:
 Error 
-7 : invalid point params.
+7 : invalid point parameters.
 
 Test 51:
 Error 
-7 : invalid point params.
+7 : invalid point parameters.
 
 Test 52:
 Error 
-7 : invalid light params, no ratio params.
+7 : invalid light params, no ratio parameters.
 
 Test 53:
 Error 
-7 : invalid light ratio params.
+7 : invalid light ratio parameters.
 
 Test 54:
 Error 
@@ -228,43 +228,43 @@ Error
 
 Test 55:
 Error 
-4 : too much params in light line.
+4 : too much parameters in light line.
 
 Test 56:
 Error 
-7 : invalid plane point params.
+7 : invalid plane point parameters.
 
 Test 57:
 Error 
-7 : invalid plane color params.
+7 : invalid plane color parameters.
 
 Test 58:
 Error 
-7 : invalid plane color params.
+7 : invalid plane color parameters.
 
 Test 59:
 Error 
-7 : invalid plane color params.
+7 : invalid plane color parameters.
 
 Test 60:
 Error 
-7 : invalid plane orientation params.
+7 : invalid plane orientation parameters.
 
 Test 61:
 Error 
-4 : too much params in plane line.
+4 : too much parameters in plane line.
 
 Test 62:
 Error 
-4 : too much params in plane line.
+4 : too much parameters in plane line.
 
 Test 63:
 Error 
-7 : invalid point params.
+7 : invalid point parameters.
 
 Test 64:
 Error 
-7 : invalid point params.
+7 : invalid point parameters.
 
 Test 65:
 Error 
@@ -276,15 +276,15 @@ Error
 
 Test 67:
 Error 
-7 : invalid point params.
+7 : invalid point parameters.
 
 Test 68:
 Error 
-7 : invalid plane orientation params.
+7 : invalid plane orientation parameters.
 
 Test 69:
 Error 
-7 : invalid plane orientation params.
+7 : invalid plane orientation parameters.
 
 Test 70:
 Error 
@@ -292,7 +292,7 @@ Error
 
 Test 71:
 Error 
-7 : invalid plane color params.
+7 : invalid plane color parameters.
 
 Test 72:
 Error 
@@ -304,47 +304,47 @@ Error
 
 Test 74:
 Error 
-3 : non digit params in resolution line.
+3 : non digit parameters in resolution line.
 
 Test 75:
 Error 
-3 : non digit params in resolution line.
+3 : non digit parameters in resolution line.
 
 Test 76:
 Error 
-4 : too much params in resolution line.
+4 : too much parameters in resolution line.
 
 Test 77:
 Error 
-7 : invalid sphere point params.
+7 : invalid sphere point parameters.
 
 Test 78:
 Error 
-7 : invalid sphere color params.
+7 : invalid sphere color parameters.
 
 Test 79:
 Error 
-7 : invalid sphere color params.
+7 : invalid sphere color parameters.
 
 Test 80:
 Error 
-7 : invalid point params.
+7 : invalid point parameters.
 
 Test 81:
 Error 
-7 : invalid sphere diameter params.
+7 : invalid sphere diameter parameters.
 
 Test 82:
 Error 
-7 : invalid sphere diameter params.
+7 : invalid sphere diameter parameters.
 
 Test 83:
 Error 
-4 : too much params in sphere line.
+4 : too much parameters in sphere line.
 
 Test 84:
 Error 
-4 : too much params in sphere line.
+4 : too much parameters in sphere line.
 
 Test 85:
 Error 
@@ -356,143 +356,143 @@ Error
 
 Test 87:
 Error 
-7 : invalid sphere diameter params.
+7 : invalid sphere diameter parameters.
 
 Test 88:
 Error 
-7 : invalid sphere diameter params.
+7 : invalid sphere diameter parameters.
 
 Test 89:
 Error 
-4 : too much params in light line.
+4 : too much parameters in light line.
 
 Test 90:
 Error 
-7 : invalid point params.
+7 : invalid point parameters.
 
 Test 91:
 Error 
-7 : invalid point params.
+7 : invalid point parameters.
 
 Test 92:
 Error 
-4 : too much params in sphere line.
+4 : too much parameters in sphere line.
 
 Test 93:
 Error 
-3 : non digit params in resolution line.
+3 : non digit parameters in resolution line.
 
 Test 94:
 Error 
-7 : invalid square point params.
+7 : invalid square point parameters.
 
 Test 95:
 Error 
-7 : invalid square point params.
+7 : invalid square point parameters.
 
 Test 96:
 Error 
-7 : invalid square point params.
+7 : invalid square point parameters.
 
 Test 97:
 Error 
-3 : non digit params in resolution line.
+3 : non digit parameters in resolution line.
 
 Test 98:
 Error 
-7 : invalid square color params.
+7 : invalid square color parameters.
 
 Test 99:
 Error 
-7 : invalid square color params.
+7 : invalid square color parameters.
 
 Test 100:
 Error 
-7 : invalid square color params.
+7 : invalid square color parameters.
 
 Test 101:
 Error 
-3 : non digit params in resolution line.
+3 : non digit parameters in resolution line.
 
 Test 102:
 Error 
-7 : invalid square height params.
+7 : invalid square height parameters.
 
 Test 103:
 Error 
-7 : invalid square height params.
+7 : invalid square height parameters.
 
 Test 104:
 Error 
-7 : invalid square height params.
+7 : invalid square height parameters.
 
 Test 105:
 Error 
-3 : non digit params in resolution line.
+3 : non digit parameters in resolution line.
 
 Test 106:
 Error 
-7 : invalid square orientation params.
+7 : invalid square orientation parameters.
 
 Test 107:
 Error 
-7 : invalid square orientation params.
+7 : invalid square orientation parameters.
 
 Test 108:
 Error 
-7 : invalid square orientation params.
+7 : invalid square orientation parameters.
 
 Test 109:
 Error 
-3 : non digit params in resolution line.
+3 : non digit parameters in resolution line.
 
 Test 110:
 Error 
-7 : invalid square color params.
+7 : invalid square color parameters.
 
 Test 111:
 Error 
-7 : invalid square color params.
+7 : invalid square color parameters.
 
 Test 112:
 Error 
-7 : invalid square color params.
+7 : invalid square color parameters.
 
 Test 113:
 Error 
-3 : non digit params in resolution line.
+3 : non digit parameters in resolution line.
 
 Test 114:
 Error 
-7 : invalid point params.
+7 : invalid point parameters.
 
 Test 115:
 Error 
-7 : invalid point params.
+7 : invalid point parameters.
 
 Test 116:
 Error 
-7 : invalid point params.
+7 : invalid point parameters.
 
 Test 117:
 Error 
-3 : non digit params in resolution line.
+3 : non digit parameters in resolution line.
 
 Test 118:
 Error 
-7 : invalid point params.
+7 : invalid point parameters.
 
 Test 119:
 Error 
-7 : invalid point params.
+7 : invalid point parameters.
 
 Test 120:
 Error 
-7 : invalid point params.
+7 : invalid point parameters.
 
 Test 121:
 Error 
-3 : non digit params in resolution line.
+3 : non digit parameters in resolution line.
 
 Test 122:
 Error 
@@ -508,7 +508,7 @@ Error
 
 Test 125:
 Error 
-3 : non digit params in resolution line.
+3 : non digit parameters in resolution line.
 
 Test 126:
 Error 
@@ -524,7 +524,7 @@ Error
 
 Test 129:
 Error 
-3 : non digit params in resolution line.
+3 : non digit parameters in resolution line.
 
 Test 130:
 Error 
@@ -540,39 +540,39 @@ Error
 
 Test 133:
 Error 
-3 : non digit params in resolution line.
+3 : non digit parameters in resolution line.
 
 Test 134:
 Error 
-4 : too much params in square line.
+4 : too much parameters in square line.
 
 Test 135:
 Error 
-4 : too much params in square line.
+4 : too much parameters in square line.
 
 Test 136:
 Error 
-4 : too much params in square line.
+4 : too much parameters in square line.
 
 Test 137:
 Error 
-3 : non digit params in resolution line.
+3 : non digit parameters in resolution line.
 
 Test 138:
 Error 
-4 : too much params in square line.
+4 : too much parameters in square line.
 
 Test 139:
 Error 
-4 : too much params in square line.
+4 : too much parameters in square line.
 
 Test 140:
 Error 
-4 : too much params in square line.
+4 : too much parameters in square line.
 
 Test 141:
 Error 
-3 : non digit params in resolution line.
+3 : non digit parameters in resolution line.
 
 Test 142:
 Error 
@@ -588,11 +588,11 @@ Error
 
 Test 145:
 Error 
-3 : non digit params in resolution line.
+3 : non digit parameters in resolution line.
 
 Test 146:
 Error 
-3 : non digit params in amb_light line.
+3 : non digit parameters in amb_light line.
 
 Test 147:
 Error 
@@ -604,7 +604,7 @@ Error
 
 Test 149:
 Error 
-3 : non digit params in resolution line.
+3 : non digit parameters in resolution line.
 
 Test 150:
 Error 
@@ -612,19 +612,19 @@ Error
 
 Test 151:
 Error 
-7 : invalid square height params.
+7 : invalid square height parameters.
 
 Test 152:
 Error 
-7 : invalid square height params.
+7 : invalid square height parameters.
 
 Test 153:
 Error 
-3 : non digit params in resolution line.
+3 : non digit parameters in resolution line.
 
 Test 154:
 Error 
-3 : non digit params in amb_light line.
+3 : non digit parameters in amb_light line.
 
 Test 155:
 Error 
@@ -636,11 +636,11 @@ Error
 
 Test 157:
 Error 
-3 : non digit params in resolution line.
+3 : non digit parameters in resolution line.
 
 Test 158:
 Error 
-3 : non digit params in amb_light line.
+3 : non digit parameters in amb_light line.
 
 Test 159:
 Error 
@@ -652,39 +652,39 @@ Error
 
 Test 161:
 Error 
-3 : non digit params in resolution line.
+3 : non digit parameters in resolution line.
 
 Test 162:
 Error 
-3 : non digit params in amb_light line.
+3 : non digit parameters in amb_light line.
 
 Test 163:
 Error 
-7 : invalid point params.
+7 : invalid point parameters.
 
 Test 164:
 Error 
-7 : invalid point params.
+7 : invalid point parameters.
 
 Test 165:
 Error 
-3 : non digit params in resolution line.
+3 : non digit parameters in resolution line.
 
 Test 166:
 Error 
-3 : non digit params in amb_light line.
+3 : non digit parameters in amb_light line.
 
 Test 167:
 Error 
-7 : invalid point params.
+7 : invalid point parameters.
 
 Test 168:
 Error 
-7 : invalid point params.
+7 : invalid point parameters.
 
 Test 169:
 Error 
-3 : non digit params in resolution line.
+3 : non digit parameters in resolution line.
 
 Test 170:
 Error 
@@ -692,15 +692,15 @@ Error
 
 Test 171:
 Error 
-7 : invalid point params.
+7 : invalid point parameters.
 
 Test 172:
 Error 
-7 : invalid point params.
+7 : invalid point parameters.
 
 Test 173:
 Error 
-3 : non digit params in resolution line.
+3 : non digit parameters in resolution line.
 
 Test 174:
 Error 
@@ -708,35 +708,35 @@ Error
 
 Test 175:
 Error 
-7 : invalid point params.
+7 : invalid point parameters.
 
 Test 176:
 Error 
-7 : invalid point params.
+7 : invalid point parameters.
 
 Test 177:
 Error 
-7 : invalid triangle point 1 params.
+7 : invalid triangle point 1 parameters.
 
 Test 178:
 Error 
-7 : invalid triangle point 2 params.
+7 : invalid triangle point 2 parameters.
 
 Test 179:
 Error 
-7 : invalid triangle point 3 params.
+7 : invalid triangle point 3 parameters.
 
 Test 180:
 Error 
-7 : invalid triangle color params.
+7 : invalid triangle color parameters.
 
 Test 181:
 Error 
-4 : too much params in triangle line.
+4 : too much parameters in triangle line.
 
 Test 182:
 Error 
-4 : too much params in triangle line.
+4 : too much parameters in triangle line.
 
 Test 183:
 Error 
@@ -752,23 +752,23 @@ Error
 
 Test 186:
 Error 
-7 : invalid point params.
+7 : invalid point parameters.
 
 Test 187:
 Error 
-7 : invalid point params.
+7 : invalid point parameters.
 
 Test 188:
 Error 
-7 : invalid point params.
+7 : invalid point parameters.
 
 Test 189:
 Error 
-7 : invalid point params.
+7 : invalid point parameters.
 
 Test 190:
 Error 
-4 : too much params in light line.
+4 : too much parameters in light line.
 
 Test 191:
 Error 

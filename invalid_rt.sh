@@ -19,7 +19,7 @@ ps -ef | grep "miniRT" | grep -v 'grep' | awk '{print $2}' | xargs kill 1>&2
 i=0
 while true; do
 	if [[ "$i" -gt 191 ]]; then
-		exit 1
+		break
 	fi
 	echo '' >> test.log
 	echo "Test $i:" >> test.log
@@ -33,5 +33,10 @@ done
 run 2>> kill.log
 
 DIFF=$(diff kill.log srcs/kill_diff.log)
-echo "$DIFF"
-echo | diff test.log srcs/test_diff.log
+if [ "$DIFF" == "" ] ; then
+	echo -ne "\033[0;32m \xE2\x9C\x94	\033[0m"
+	echo no errors gg
+else
+	echo -ne "\033[0;31m x	\033[0m"
+	echo "errors, check kill.log, re-run if suspicious"
+fi
