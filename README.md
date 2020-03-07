@@ -2,7 +2,8 @@
 
 clone the repository at the root of your miniRT without giving it a different name
 
-use "bash invalid_rt.sh"
+if the miniRT uses stdout, use "bash invalid_rt.sh"
+if the miniRT uses stderr, use "bash invalid_rt_stderr.sh"
 
 check the kill.log file, if there are only "Test 0:" lines, it means the test passed
 
