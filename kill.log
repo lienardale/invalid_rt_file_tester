@@ -3,6 +3,7 @@ Test non-exist0:
 Test non-exist1:
 Test multi-arg0:
 Test multi-arg1:
+invalid_rt.sh: line 3: 94130 Terminated: 15          ./../miniRT srcs/objects.rt srcs/objects.rt >> test.log
 Test .cube:
 Test 0:
 Test 1:

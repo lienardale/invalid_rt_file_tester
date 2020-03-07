@@ -41,8 +41,11 @@ tmp=$(diff test_leaks.log srcs/leaks_diff.log)
 
 if [ "$tmp" == "" ] ; then
 	echo -ne "\033[0;32m \xE2\x9C\x94	\033[0m"
-	echo no leak gg
+	echo -e "\033[0;32mno leaks gg\033[0m"
 else
 	echo -ne "\033[0;31m x	\033[0m"
-	echo you leaky bastard
+	echo -e "\033[0;31myou leaky bastard\033[0m"
+	echo -e "\033[0;31mcheck test_leaks.log for details\033[0m"
+	echo ''
+	echo -e "\033[0;31mif you haven't, RTFM\033[0m"
 fi
