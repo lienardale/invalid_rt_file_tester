@@ -8,6 +8,8 @@ Test non-exist1:
 Error 
 0 : invalid number of arguments.
 Test multi-arg0:
+Error 
+0 : invalid number of arguments.
 Test multi-arg1:
 Error 
 0 : invalid number of arguments.

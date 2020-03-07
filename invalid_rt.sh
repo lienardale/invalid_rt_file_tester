@@ -61,16 +61,17 @@ run 2>> kill.log
 DIFF=$(diff kill.log srcs/kill_diff.log)
 if [ "$DIFF" == "" ] ; then
 	echo -e "\033[0;32m[OK]\033[0m"
-	echo -e "\033[0;32mno errors gg\033[0m"
+	echo -e "\033[0;32mNo errors, gg.\033[0m"
+	echo -e "\033[0;32mCheck test.log to see if the error messages are explicit.\033[0m"
 else
 	echo -e "\033[0;31m[KO]\033[0m"
 	echo ''
-	echo -e "\033[0;31merrors, check kill.log, re-run if suspicious\033[0m"
+	echo -e "\033[0;31mErrors, check kill.log, re-run if suspicious or if some lines look like 'kill: 35686: No such process'.\033[0m"
 	echo ''
-	echo -e "\033[0;31mif the person tells you the tester is wrong, run a few test manually\033[0m"
+	echo -e "\033[0;31mIf the person tells you the tester is wrong, run a few test manually.\033[0m"
 	echo ''
-	echo -e "\033[0;31mif they are slow, but you do not see a window opening, they are right\033[0m"
-	echo -e "\033[0;31melse, they're wrong, put them a 0 and tell them to come fight me\033[0m"
+	echo -e "\033[0;31mIf they are slow, but you do not see a window opening, they are right.\033[0m"
+	echo -e "\033[0;31mElse, they're wrong, put them a 0 and tell them to come fight me.\033[0m"
 	echo ''
-	echo -e "\033[0;31mif you haven't, RTFM\033[0m"
+	echo -e "\033[0;31mIf you haven't, RTFM.\033[0m"
 fi
