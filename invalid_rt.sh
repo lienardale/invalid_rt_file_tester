@@ -3,7 +3,7 @@ rm -f kill.log
 function run(){ 
 rm -f test.log
 cd ../
-make
+make 2>>/dev/null
 cd invalid_rt_file_tester
 
 echo "Test no arg:" >> test.log

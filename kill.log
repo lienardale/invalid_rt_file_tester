@@ -10,46 +10,46 @@ Test 2:
 Test 3:
 Test 4:
 Test 5:
-invalid_rt_stderr.sh: line 3: 13187 Terminated: 15          ./../miniRT srcs/$i.rt 2>> test.log
+invalid_rt_stderr.sh: line 3: 57020 Terminated: 15          ./../miniRT srcs/$i.rt 2>> test.log
 Test 6:
-invalid_rt_stderr.sh: line 3: 13195 Terminated: 15          ./../miniRT srcs/$i.rt 2>> test.log
+invalid_rt_stderr.sh: line 3: 57032 Terminated: 15          ./../miniRT srcs/$i.rt 2>> test.log
 Test 7:
-invalid_rt_stderr.sh: line 3: 13203 Terminated: 15          ./../miniRT srcs/$i.rt 2>> test.log
+invalid_rt_stderr.sh: line 3: 57044 Terminated: 15          ./../miniRT srcs/$i.rt 2>> test.log
 Test 8:
-invalid_rt_stderr.sh: line 3: 13213 Terminated: 15          ./../miniRT srcs/$i.rt 2>> test.log
+invalid_rt_stderr.sh: line 3: 57056 Terminated: 15          ./../miniRT srcs/$i.rt 2>> test.log
 Test 9:
-invalid_rt_stderr.sh: line 3: 13221 Terminated: 15          ./../miniRT srcs/$i.rt 2>> test.log
+invalid_rt_stderr.sh: line 3: 57068 Terminated: 15          ./../miniRT srcs/$i.rt 2>> test.log
 Test 10:
 Test 11:
 Test 12:
 Test 13:
 Test 14:
-invalid_rt_stderr.sh: line 3: 13257 Terminated: 15          ./../miniRT srcs/$i.rt 2>> test.log
+invalid_rt_stderr.sh: line 3: 57128 Terminated: 15          ./../miniRT srcs/$i.rt 2>> test.log
 Test 15:
-invalid_rt_stderr.sh: line 3: 13265 Terminated: 15          ./../miniRT srcs/$i.rt 2>> test.log
+invalid_rt_stderr.sh: line 3: 57140 Terminated: 15          ./../miniRT srcs/$i.rt 2>> test.log
 Test 16:
 Test 17:
 Test 18:
 Test 19:
 Test 20:
-invalid_rt_stderr.sh: line 3: 13301 Terminated: 15          ./../miniRT srcs/$i.rt 2>> test.log
+invalid_rt_stderr.sh: line 3: 57201 Terminated: 15          ./../miniRT srcs/$i.rt 2>> test.log
 Test 21:
-invalid_rt_stderr.sh: line 3: 13309 Terminated: 15          ./../miniRT srcs/$i.rt 2>> test.log
+invalid_rt_stderr.sh: line 3: 57214 Terminated: 15          ./../miniRT srcs/$i.rt 2>> test.log
 Test 22:
-invalid_rt_stderr.sh: line 3: 13318 Terminated: 15          ./../miniRT srcs/$i.rt 2>> test.log
+invalid_rt_stderr.sh: line 3: 57224 Terminated: 15          ./../miniRT srcs/$i.rt 2>> test.log
 Test 23:
-invalid_rt_stderr.sh: line 3: 13326 Terminated: 15          ./../miniRT srcs/$i.rt 2>> test.log
+invalid_rt_stderr.sh: line 3: 57232 Terminated: 15          ./../miniRT srcs/$i.rt 2>> test.log
 Test 24:
 Test 25:
 Test 26:
 Test 27:
 Test 28:
 Test 29:
-invalid_rt_stderr.sh: line 3: 13369 Terminated: 15          ./../miniRT srcs/$i.rt 2>> test.log
+invalid_rt_stderr.sh: line 3: 57275 Terminated: 15          ./../miniRT srcs/$i.rt 2>> test.log
 Test 30:
-invalid_rt_stderr.sh: line 3: 13377 Terminated: 15          ./../miniRT srcs/$i.rt 2>> test.log
+invalid_rt_stderr.sh: line 3: 57283 Terminated: 15          ./../miniRT srcs/$i.rt 2>> test.log
 Test 31:
-invalid_rt_stderr.sh: line 3: 13385 Terminated: 15          ./../miniRT srcs/$i.rt 2>> test.log
+invalid_rt_stderr.sh: line 3: 57291 Terminated: 15          ./../miniRT srcs/$i.rt 2>> test.log
 Test 32:
 Test 33:
 Test 34:
@@ -60,21 +60,21 @@ Test 38:
 Test 39:
 Test 40:
 Test 41:
-invalid_rt_stderr.sh: line 3: 13457 Terminated: 15          ./../miniRT srcs/$i.rt 2>> test.log
+invalid_rt_stderr.sh: line 3: 57364 Terminated: 15          ./../miniRT srcs/$i.rt 2>> test.log
 Test 42:
 Test 43:
 Test 44:
 Test 45:
-invalid_rt_stderr.sh: line 3: 13486 Terminated: 15          ./../miniRT srcs/$i.rt 2>> test.log
+invalid_rt_stderr.sh: line 3: 57400 Terminated: 15          ./../miniRT srcs/$i.rt 2>> test.log
 Test 46:
 Test 47:
-invalid_rt_stderr.sh: line 3: 13501 Terminated: 15          ./../miniRT srcs/$i.rt 2>> test.log
+invalid_rt_stderr.sh: line 3: 57415 Terminated: 15          ./../miniRT srcs/$i.rt 2>> test.log
 Test 48:
-invalid_rt_stderr.sh: line 3: 13509 Terminated: 15          ./../miniRT srcs/$i.rt 2>> test.log
+invalid_rt_stderr.sh: line 3: 57423 Terminated: 15          ./../miniRT srcs/$i.rt 2>> test.log
 Test 49:
-invalid_rt_stderr.sh: line 3: 13517 Terminated: 15          ./../miniRT srcs/$i.rt 2>> test.log
+invalid_rt_stderr.sh: line 3: 57431 Terminated: 15          ./../miniRT srcs/$i.rt 2>> test.log
 Test 50:
-invalid_rt_stderr.sh: line 3: 13525 Terminated: 15          ./../miniRT srcs/$i.rt 2>> test.log
+invalid_rt_stderr.sh: line 3: 57439 Terminated: 15          ./../miniRT srcs/$i.rt 2>> test.log
 Test 51:
 Test 52:
 Test 53:
@@ -86,50 +86,50 @@ Test 58:
 Test 59:
 Test 60:
 Test 61:
-invalid_rt_stderr.sh: line 3: 13604 Terminated: 15          ./../miniRT srcs/$i.rt 2>> test.log
+invalid_rt_stderr.sh: line 3: 57518 Terminated: 15          ./../miniRT srcs/$i.rt 2>> test.log
 Test 62:
-invalid_rt_stderr.sh: line 3: 13612 Terminated: 15          ./../miniRT srcs/$i.rt 2>> test.log
+invalid_rt_stderr.sh: line 3: 57526 Terminated: 15          ./../miniRT srcs/$i.rt 2>> test.log
 Test 63:
-invalid_rt_stderr.sh: line 3: 13620 Terminated: 15          ./../miniRT srcs/$i.rt 2>> test.log
+invalid_rt_stderr.sh: line 3: 57534 Terminated: 15          ./../miniRT srcs/$i.rt 2>> test.log
 Test 64:
 Test 65:
 Test 66:
 Test 67:
 Test 68:
 Test 69:
-invalid_rt_stderr.sh: line 3: 13663 Terminated: 15          ./../miniRT srcs/$i.rt 2>> test.log
+invalid_rt_stderr.sh: line 3: 57577 Terminated: 15          ./../miniRT srcs/$i.rt 2>> test.log
 Test 70:
 Test 71:
 Test 72:
 Test 73:
-invalid_rt_stderr.sh: line 3: 13692 Terminated: 15          ./../miniRT srcs/$i.rt 2>> test.log
+invalid_rt_stderr.sh: line 3: 57606 Terminated: 15          ./../miniRT srcs/$i.rt 2>> test.log
 Test 74:
 Test 75:
 Test 76:
-invalid_rt_stderr.sh: line 3: 13714 Terminated: 15          ./../miniRT srcs/$i.rt 2>> test.log
+invalid_rt_stderr.sh: line 3: 57629 Terminated: 15          ./../miniRT srcs/$i.rt 2>> test.log
 Test 77:
 Test 78:
 Test 79:
-invalid_rt_stderr.sh: line 3: 13737 Terminated: 15          ./../miniRT srcs/$i.rt 2>> test.log
+invalid_rt_stderr.sh: line 3: 57651 Terminated: 15          ./../miniRT srcs/$i.rt 2>> test.log
 Test 80:
 Test 81:
 Test 82:
 Test 83:
-invalid_rt_stderr.sh: line 3: 13766 Terminated: 15          ./../miniRT srcs/$i.rt 2>> test.log
+invalid_rt_stderr.sh: line 3: 57680 Terminated: 15          ./../miniRT srcs/$i.rt 2>> test.log
 Test 84:
-invalid_rt_stderr.sh: line 3: 13774 Terminated: 15          ./../miniRT srcs/$i.rt 2>> test.log
+invalid_rt_stderr.sh: line 3: 57688 Terminated: 15          ./../miniRT srcs/$i.rt 2>> test.log
 Test 85:
-invalid_rt_stderr.sh: line 3: 13782 Terminated: 15          ./../miniRT srcs/$i.rt 2>> test.log
+invalid_rt_stderr.sh: line 3: 57696 Terminated: 15          ./../miniRT srcs/$i.rt 2>> test.log
 Test 86:
 Test 87:
 Test 88:
 Test 89:
-invalid_rt_stderr.sh: line 3: 13811 Terminated: 15          ./../miniRT srcs/$i.rt 2>> test.log
+invalid_rt_stderr.sh: line 3: 57726 Terminated: 15          ./../miniRT srcs/$i.rt 2>> test.log
 Test 90:
-invalid_rt_stderr.sh: line 3: 13819 Terminated: 15          ./../miniRT srcs/$i.rt 2>> test.log
+invalid_rt_stderr.sh: line 3: 57734 Terminated: 15          ./../miniRT srcs/$i.rt 2>> test.log
 Test 91:
 Test 92:
-invalid_rt_stderr.sh: line 3: 13834 Terminated: 15          ./../miniRT srcs/$i.rt 2>> test.log
+invalid_rt_stderr.sh: line 3: 57751 Terminated: 15          ./../miniRT srcs/$i.rt 2>> test.log
 Test 93:
 Test 94:
 Test 95:
@@ -148,10 +148,10 @@ Test 107:
 Test 108:
 Test 109:
 Test 110:
-invalid_rt_stderr.sh: line 3: 13992 Terminated: 15          ./../miniRT srcs/$i.rt 2>> test.log
+invalid_rt_stderr.sh: line 3: 57969 Terminated: 15          ./../miniRT srcs/$i.rt 2>> test.log
 Test 111:
 Test 112:
-invalid_rt_stderr.sh: line 3: 14007 Terminated: 15          ./../miniRT srcs/$i.rt 2>> test.log
+invalid_rt_stderr.sh: line 3: 57986 Terminated: 15          ./../miniRT srcs/$i.rt 2>> test.log
 Test 113:
 Test 114:
 Test 115:
@@ -164,12 +164,12 @@ Test 121:
 Test 122:
 Test 123:
 Test 124:
-invalid_rt_stderr.sh: line 3: 14093 Terminated: 15          ./../miniRT srcs/$i.rt 2>> test.log
+invalid_rt_stderr.sh: line 3: 58071 Terminated: 15          ./../miniRT srcs/$i.rt 2>> test.log
 Test 125:
 Test 126:
 Test 127:
 Test 128:
-invalid_rt_stderr.sh: line 3: 14122 Terminated: 15          ./../miniRT srcs/$i.rt 2>> test.log
+invalid_rt_stderr.sh: line 3: 58101 Terminated: 15          ./../miniRT srcs/$i.rt 2>> test.log
 Test 129:
 Test 130:
 Test 131:
@@ -180,10 +180,10 @@ Test 135:
 Test 136:
 Test 137:
 Test 138:
-invalid_rt_stderr.sh: line 3: 14194 Terminated: 15          ./../miniRT srcs/$i.rt 2>> test.log
+invalid_rt_stderr.sh: line 3: 58172 Terminated: 15          ./../miniRT srcs/$i.rt 2>> test.log
 Test 139:
 Test 140:
-invalid_rt_stderr.sh: line 3: 14209 Terminated: 15          ./../miniRT srcs/$i.rt 2>> test.log
+invalid_rt_stderr.sh: line 3: 58187 Terminated: 15          ./../miniRT srcs/$i.rt 2>> test.log
 Test 141:
 Test 142:
 Test 143:
@@ -214,10 +214,10 @@ Test 167:
 Test 168:
 Test 169:
 Test 170:
-invalid_rt_stderr.sh: line 3: 14423 Terminated: 15          ./../miniRT srcs/$i.rt 2>> test.log
+invalid_rt_stderr.sh: line 3: 58401 Terminated: 15          ./../miniRT srcs/$i.rt 2>> test.log
 Test 171:
 Test 172:
-invalid_rt_stderr.sh: line 3: 14439 Terminated: 15          ./../miniRT srcs/$i.rt 2>> test.log
+invalid_rt_stderr.sh: line 3: 58416 Terminated: 15          ./../miniRT srcs/$i.rt 2>> test.log
 Test 173:
 Test 174:
 Test 175:
@@ -227,20 +227,20 @@ Test 178:
 Test 179:
 Test 180:
 Test 181:
-invalid_rt_stderr.sh: line 3: 14503 Terminated: 15          ./../miniRT srcs/$i.rt 2>> test.log
+invalid_rt_stderr.sh: line 3: 58480 Terminated: 15          ./../miniRT srcs/$i.rt 2>> test.log
 Test 182:
-invalid_rt_stderr.sh: line 3: 14511 Terminated: 15          ./../miniRT srcs/$i.rt 2>> test.log
+invalid_rt_stderr.sh: line 3: 58488 Terminated: 15          ./../miniRT srcs/$i.rt 2>> test.log
 Test 183:
-invalid_rt_stderr.sh: line 3: 14519 Terminated: 15          ./../miniRT srcs/$i.rt 2>> test.log
+invalid_rt_stderr.sh: line 3: 58497 Terminated: 15          ./../miniRT srcs/$i.rt 2>> test.log
 Test 184:
 Test 185:
-invalid_rt_stderr.sh: line 3: 14534 Terminated: 15          ./../miniRT srcs/$i.rt 2>> test.log
+invalid_rt_stderr.sh: line 3: 58512 Terminated: 15          ./../miniRT srcs/$i.rt 2>> test.log
 Test 186:
-invalid_rt_stderr.sh: line 3: 14553 Terminated: 15          ./../miniRT srcs/$i.rt 2>> test.log
+invalid_rt_stderr.sh: line 3: 58520 Terminated: 15          ./../miniRT srcs/$i.rt 2>> test.log
 Test 187:
 Test 188:
-invalid_rt_stderr.sh: line 3: 14568 Terminated: 15          ./../miniRT srcs/$i.rt 2>> test.log
+invalid_rt_stderr.sh: line 3: 58535 Terminated: 15          ./../miniRT srcs/$i.rt 2>> test.log
 Test 189:
 Test 190:
-invalid_rt_stderr.sh: line 3: 14585 Terminated: 15          ./../miniRT srcs/$i.rt 2>> test.log
+invalid_rt_stderr.sh: line 3: 58550 Terminated: 15          ./../miniRT srcs/$i.rt 2>> test.log
 Test 191:
