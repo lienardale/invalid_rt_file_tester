@@ -1,60 +1,137 @@
 #!/bin/bash
 rm -f kill.log
-function run(){ 
 rm -f test.log
 cd ../
 make 2>>/dev/null
 cd invalid_rt_file_tester
 
-echo "Test no arg:" >> test.log
-echo "Test no arg:" >> kill.log
-./../miniRT >> test.log &
-sleep 0.05
-ps -ef | grep "miniRT" | grep -v 'grep' | awk '{print $2}' | xargs kill 1>&2
+RIGHT="✅"
+WRONG="❌"
 
-echo "Test non-exist0:" >> test.log
-echo "Test non-exist0:" >> kill.log
-./../miniRT srcs/error.rt >> test.log &
-sleep 0.05
-ps -ef | grep "miniRT" | grep -v 'grep' | awk '{print $2}' | xargs kill 1>&2
+function run(){ 
 
-echo "Test non-exist1:" >> test.log
-echo "Test non-exist1:" >> kill.log
-./../miniRT srcs/error >> test.log &
-sleep 0.05
-ps -ef | grep "miniRT" | grep -v 'grep' | awk '{print $2}' | xargs kill 1>&2
-
-echo "Test multi-arg0:" >> test.log
-echo "Test multi-arg0:" >> kill.log
-./../miniRT srcs/objects.rt srcs/objects.rt >> test.log &
-sleep 0.05
-ps -ef | grep "miniRT" | grep -v 'grep' | awk '{print $2}' | xargs kill 1>&2
-
-echo "Test multi-arg1:" >> test.log
-echo "Test multi-arg1:" >> kill.log
-./../miniRT srcs/objects.rt srcs/objects.rt srcs/objects.rt >> test.log &
-sleep 0.05
-ps -ef | grep "miniRT" | grep -v 'grep' | awk '{print $2}' | xargs kill 1>&2
-
-echo '' >> test.log
-echo "Test .cube:" >> test.log
-echo "Test .cube:" >> kill.log
-./../miniRT srcs/0.cube >> test.log &
-sleep 0.05
-ps -ef | grep "miniRT" | grep -v 'grep' | awk '{print $2}' | xargs kill 1>&2
-i=0
-while true; do
-	if [[ "$i" -gt 191 ]]; then
-		break
-	fi
-	echo '' >> test.log
-	echo "Test $i:" >> test.log
-	echo "Test $i:" >> kill.log
-	./../miniRT srcs/$i.rt >> test.log &
+	echo "Test no arg:" >> test.log
+	echo "Test no arg:" >> kill.log
+	./../miniRT >> test.log 2>&1 &
 	sleep 0.05
-	ps -ef | grep "miniRT" | grep -v 'grep' | awk '{print $2}' | xargs kill 1>&2
-	((i++))
-done
+	PID=$(ps -ef | grep "miniRT" | grep -v 'grep' | awk '{print $2}')
+	echo -n "Test no arg:"
+	if [ $PID ]
+	then
+		kill $PID 1>&2
+		echo $WRONG >> kill.log
+		echo $WRONG
+	else
+		echo $RIGHT
+		# echo "\033[0;32m \xE2\x9C\x94	\033[0m"
+	fi
+
+
+	echo "Test non-exist0:" >> test.log
+	echo "Test non-exist0:" >> kill.log
+	./../miniRT srcs/error.rt >> test.log 2>&1 &
+	sleep 0.05
+	PID=$(ps -ef | grep "miniRT" | grep -v 'grep' | awk '{print $2}')
+	echo -n "Test non-exist0:"
+	if [ $PID ]
+	then
+		kill $PID 1>&2
+		echo $WRONG >> kill.log
+		echo $WRONG
+	else
+		echo $RIGHT
+		# echo "\033[0;32m \xE2\x9C\x94	\033[0m"
+	fi
+
+	echo "Test non-exist1:" >> test.log
+	echo "Test non-exist1:" >> kill.log
+	./../miniRT srcs/error >> test.log 2>&1 &
+	sleep 0.05
+	PID=$(ps -ef | grep "miniRT" | grep -v 'grep' | awk '{print $2}')
+	echo -n "Test non-exist1:"
+	if [ $PID ]
+	then
+		kill $PID 1>&2
+		echo $WRONG >> kill.log
+		echo $WRONG
+	else
+		echo $RIGHT
+		# echo "\033[0;32m \xE2\x9C\x94	\033[0m"
+	fi
+
+	echo "Test multi-arg0:" >> test.log
+	echo "Test multi-arg0:" >> kill.log
+	./../miniRT srcs/objects.rt srcs/objects.rt >> test.log 2>&1 &
+	sleep 0.05
+	PID=$(ps -ef | grep "miniRT" | grep -v 'grep' | awk '{print $2}')
+	echo -n "Test multi-arg0:"
+	if [ $PID ]
+	then
+		kill $PID 1>&2
+		echo $WRONG >> kill.log
+		echo $WRONG
+	else
+		echo $RIGHT
+		# echo "\033[0;32m \xE2\x9C\x94	\033[0m"
+	fi
+
+	echo "Test multi-arg1:" >> test.log
+	echo "Test multi-arg1:" >> kill.log
+	./../miniRT srcs/objects.rt srcs/objects.rt srcs/objects.rt >> test.log 2>&1 &
+	sleep 0.05
+	PID=$(ps -ef | grep "miniRT" | grep -v 'grep' | awk '{print $2}')
+	echo -n "Test multi-arg1:"
+	if [ $PID ]
+	then
+		kill $PID 1>&2
+		echo $WRONG >> kill.log
+		echo $WRONG
+	else
+		echo $RIGHT
+		# echo "\033[0;32m \xE2\x9C\x94	\033[0m"
+	fi
+
+	echo '' >> test.log
+	echo "Test .cube:" >> test.log
+	echo "Test .cube:" >> kill.log
+	./../miniRT srcs/0.cube >> test.log 2>&1 &
+	sleep 0.05
+	PID=$(ps -ef | grep "miniRT" | grep -v 'grep' | awk '{print $2}')
+	echo -n "Test .cube:"
+	if [ $PID ]
+	then
+		kill $PID 1>&2
+		echo $WRONG >> kill.log
+		echo $WRONG
+	else
+		echo $RIGHT
+		# echo "\033[0;32m \xE2\x9C\x94	\033[0m"
+	fi
+	i=0
+	while true; do
+		if [[ "$i" -gt 192 ]]; then
+			break
+		fi
+		if ! (("$i" % 10)) ; then
+			echo
+		fi
+		echo '' >> test.log
+		echo "Test $i:" >> test.log
+		echo "Test $i:" >> kill.log
+		./../miniRT srcs/$i.rt >> test.log 2>&1 &
+		sleep 0.05
+		PID=$(ps -ef | grep "miniRT" | grep -v 'grep' | awk '{print $2}')
+		echo -ne " $i:"
+		if [ $PID ]; then
+			kill $PID 1>&2
+			echo $WRONG >> kill.log
+			echo -ne $WRONG
+		else
+			echo -ne $RIGHT
+			# echo "\033[0;32m \xE2\x9C\x94	\033[0m"
+		fi
+		((i++))
+	done
 }
 run 2>> kill.log
 

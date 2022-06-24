@@ -1,701 +1,791 @@
 Test no arg:
-[1m[31mError[0m
-[31mInvalid argument(s)[0m
-[1m[31mError[0m
-[31mProblem while reading the file[0m
+Error 
+0 : invalid number of arguments.
 Test non-exist0:
-[1m[31mError[0m
-[31mInvalid file[0m
-[1m[31mError[0m
-[31mProblem while reading the file[0m
+Error 
+2 : failed to open.
 Test non-exist1:
-[1m[31mError[0m
-[31mInvalid file[0m
-[1m[31mError[0m
-[31mProblem while reading the file[0m
+Error 
+0 : invalid number of arguments.
 Test multi-arg0:
-[1m[31mError[0m
-[31mInvalid argument(s)[0m
-[1m[31mError[0m
-[31mProblem while reading the file[0m
+Error 
+0 : invalid number of arguments.
 Test multi-arg1:
-[1m[31mError[0m
-[31mInvalid argument(s)[0m
-[1m[31mError[0m
-[31mProblem while reading the file[0m
+Error 
+0 : invalid number of arguments.
 
 Test .cube:
-[1m[31mError[0m
-[31mInvalid file[0m
-[1m[31mError[0m
-[31mProblem while reading the file[0m
+Error 
+1 : av[1] not a .rt file.
 
 Test 0:
-[1m[31mError[0m
-[31mResolution is missing or incorrect[0m (line 1)
+Error 
+0 : invalid number of resolution lines, should be one.
 
 Test 1:
-[1m[31mError[0m
-[31mResolution is missing or incorrect[0m
+Error 
+3 : non digit parameters in resolution line.
 
 Test 2:
-[1m[31mError[0m
-[31mResolution is missing or incorrect[0m (line 2)
+Error 
+3 : non digit parameters in amb_light line.
 
 Test 3:
-[1m[31mError[0m
-[31mResolution is missing or incorrect[0m
+Error 
+5 : invalid shape id.
 
 Test 4:
-[1m[31mError[0m
-[31mResolution is missing or incorrect[0m
+Error 
+3 : non digit parameters in resolution line.
 
 Test 5:
+Error 
+3 : non digit parameters in amb_light line.
 
 Test 6:
+Error 
+3 : non digit parameters in amb_light line.
 
 Test 7:
+Error 
+4 : too much parameters in amb_light line.
 
 Test 8:
+Error 
+4 : too much parameters in amb_light line.
 
 Test 9:
+Error 
+5 : invalid shape id.
 
 Test 10:
-[1m[31mError[0m
-[31mYour camera has wrong parameters[0m (line 3)
+Error 
+9 : invalid colors in amb_light ratio line.
 
 Test 11:
-[1m[31mError[0m
-[31mYour camera has wrong parameters[0m (line 3)
+Error 
+9 : invalid colors in amb_light ratio line.
 
 Test 12:
-[1m[31mError[0m
-[31mYour camera has wrong parameters[0m (line 3)
+Error 
+9 : invalid colors in amb_light ratio line.
 
 Test 13:
-[1m[31mError[0m
-[31mYour camera has wrong parameters[0m (line 3)
+Error 
+9 : invalid colors in amb_light ratio line.
 
 Test 14:
+Error 
+9 : invalid colors in amb_light ratio line.
 
 Test 15:
+Error 
+9 : invalid colors in amb_light ratio line.
 
 Test 16:
-[1m[31mError[0m
-[31mYour camera has wrong parameters[0m (line 3)
+Error 
+9 : invalid colors in amb_light ratio line.
 
 Test 17:
-[1m[31mError[0m
-[31mYour camera has wrong parameters[0m (line 3)
+Error 
+9 : invalid colors in amb_light ratio line.
 
 Test 18:
-[1m[31mError[0m
-[31mYour camera has wrong parameters[0m (line 3)
+Error 
+9 : invalid colors in amb_light ratio line.
 
 Test 19:
-[1m[31mError[0m
-[31mYour camera has wrong parameters[0m (line 3)
+Error 
+9 : invalid colors in amb_light ratio line.
 
 Test 20:
+Error 
+9 : invalid colors in amb_light ratio line.
 
 Test 21:
+Error 
+9 : invalid colors in amb_light ratio line.
 
 Test 22:
+Error 
+9 : invalid colors in amb_light ratio line.
 
 Test 23:
+Error 
+9 : invalid colors in amb_light ratio line.
 
 Test 24:
-[1m[31mError[0m
-[31mYour object has wrong parameters[0m (line 5)
+Error 
+9 : invalid colors in amb_light ratio line.
 
 Test 25:
-[1m[31mError[0m
-[31mYour object has wrong parameters[0m (line 5)
+Error 
+9 : invalid colors in amb_light ratio line.
 
 Test 26:
-[1m[31mError[0m
-[31mYour object has wrong parameters[0m (line 5)
+Error 
+9 : invalid colors in amb_light ratio line.
 
 Test 27:
-[1m[31mError[0m
-[31mYour object has wrong parameters[0m (line 5)
+Error 
+9 : invalid colors in amb_light ratio line.
 
 Test 28:
-[1m[31mError[0m
-[31mYour object has wrong parameters[0m (line 5)
+Error 
+9 : invalid colors in amb_light ratio line.
 
 Test 29:
+Error 
+9 : invalid colors in amb_light ratio line.
 
 Test 30:
+Error 
+9 : invalid colors in amb_light ratio line.
 
 Test 31:
+Error 
+9 : invalid colors in amb_light ratio line.
 
 Test 32:
-[1m[31mError[0m
-[31mYour object has wrong parameters[0m (line 5)
+Error 
+9 : invalid colors in amb_light ratio line.
 
 Test 33:
-[1m[31mError[0m
-[31mYour object has wrong parameters[0m (line 5)
+Error 
+9 : invalid colors in amb_light ratio line.
 
 Test 34:
-[1m[31mError[0m
-[31mYour object has wrong parameters[0m (line 5)
+Error 
+9 : invalid colors in amb_light ratio line.
 
 Test 35:
-[1m[31mError[0m
-[31mYour object has wrong parameters[0m (line 5)
+Error 
+9 : invalid colors in amb_light ratio line.
 
 Test 36:
-[1m[31mError[0m
-[31mYour object has wrong parameters[0m (line 5)
+Error 
+9 : invalid colors in amb_light ratio line.
 
 Test 37:
-[1m[31mError[0m
-[31mYour object has wrong parameters[0m (line 5)
+Error 
+9 : invalid colors in amb_light ratio line.
 
 Test 38:
-[1m[31mError[0m
-[31mYour object has wrong parameters[0m (line 5)
+Error 
+9 : invalid colors in amb_light ratio line.
 
 Test 39:
-[1m[31mError[0m
-[31mYour object has wrong parameters[0m (line 5)
+Error 
+9 : invalid colors in amb_light ratio line.
 
 Test 40:
-[1m[31mError[0m
-[31mYour object has wrong parameters[0m (line 5)
+Error 
+9 : invalid colors in amb_light ratio line.
 
 Test 41:
+Error 
+9 : invalid colors in amb_light ratio line.
 
 Test 42:
-[1m[31mError[0m
-[31mYour object has wrong parameters[0m (line 5)
+Error 
+9 : invalid colors in amb_light ratio line.
 
 Test 43:
-[1m[31mError[0m
-[31mYour light has wrong parameters[0m (line 4)
+Error 
+9 : invalid colors in amb_light ratio line.
 
 Test 44:
-[1m[31mError[0m
-[31mYour light has wrong parameters[0m (line 4)
+Error 
+9 : invalid colors in amb_light ratio line.
 
 Test 45:
+Error 
+9 : invalid colors in amb_light ratio line.
 
 Test 46:
-[1m[31mError[0m
-[31mYour light has wrong parameters[0m (line 4)
+Error 
+9 : invalid colors in amb_light ratio line.
 
 Test 47:
+Error 
+9 : invalid colors in amb_light ratio line.
 
 Test 48:
+Error 
+9 : invalid colors in amb_light ratio line.
 
 Test 49:
+Error 
+9 : invalid colors in amb_light ratio line.
 
 Test 50:
+Error 
+9 : invalid colors in amb_light ratio line.
 
 Test 51:
-[1m[31mError[0m
-[31mYour light has wrong parameters[0m (line 4)
+Error 
+9 : invalid colors in amb_light ratio line.
 
 Test 52:
-[1m[31mError[0m
-[31mYour light has wrong parameters[0m (line 4)
+Error 
+9 : invalid colors in amb_light ratio line.
 
 Test 53:
-[1m[31mError[0m
-[31mYour light has wrong parameters[0m (line 4)
+Error 
+9 : invalid colors in amb_light ratio line.
 
 Test 54:
-[1m[31mError[0m
-[31mYour light has wrong parameters[0m (line 4)
+Error 
+9 : invalid colors in amb_light ratio line.
 
 Test 55:
-[1m[31mError[0m
-[31mYour light has wrong parameters[0m (line 4)
+Error 
+9 : invalid colors in amb_light ratio line.
 
 Test 56:
-[1m[31mError[0m
-[31mYour object has wrong parameters[0m (line 5)
+Error 
+9 : invalid colors in amb_light ratio line.
 
 Test 57:
-[1m[31mError[0m
-[31mYour object has wrong parameters[0m (line 5)
+Error 
+9 : invalid colors in amb_light ratio line.
 
 Test 58:
-[1m[31mError[0m
-[31mYour object has wrong parameters[0m (line 5)
+Error 
+9 : invalid colors in amb_light ratio line.
 
 Test 59:
-[1m[31mError[0m
-[31mYour object has wrong parameters[0m (line 5)
+Error 
+9 : invalid colors in amb_light ratio line.
 
 Test 60:
-[1m[31mError[0m
-[31mYour object has wrong parameters[0m (line 5)
+Error 
+9 : invalid colors in amb_light ratio line.
 
 Test 61:
+Error 
+9 : invalid colors in amb_light ratio line.
 
 Test 62:
+Error 
+9 : invalid colors in amb_light ratio line.
 
 Test 63:
+Error 
+9 : invalid colors in amb_light ratio line.
 
 Test 64:
-[1m[31mError[0m
-[31mYour object has wrong parameters[0m (line 5)
+Error 
+9 : invalid colors in amb_light ratio line.
 
 Test 65:
-[1m[31mError[0m
-[31mYour object has wrong parameters[0m (line 5)
+Error 
+9 : invalid colors in amb_light ratio line.
 
 Test 66:
-[1m[31mError[0m
-[31mYour object has wrong parameters[0m (line 5)
+Error 
+9 : invalid colors in amb_light ratio line.
 
 Test 67:
-[1m[31mError[0m
-[31mYour object has wrong parameters[0m (line 5)
+Error 
+9 : invalid colors in amb_light ratio line.
 
 Test 68:
-[1m[31mError[0m
-[31mYour object has wrong parameters[0m (line 5)
+Error 
+9 : invalid colors in amb_light ratio line.
 
 Test 69:
+Error 
+9 : invalid colors in amb_light ratio line.
 
 Test 70:
-[1m[31mError[0m
-[31mYour object has wrong parameters[0m (line 5)
+Error 
+9 : invalid colors in amb_light ratio line.
 
 Test 71:
-[1m[31mError[0m
-[31mYour object has wrong parameters[0m (line 5)
+Error 
+9 : invalid colors in amb_light ratio line.
 
 Test 72:
-[1m[31mError[0m
-[31mYour object has wrong parameters[0m (line 5)
+Error 
+9 : invalid colors in amb_light ratio line.
 
 Test 73:
+Error 
+9 : invalid colors in amb_light ratio line.
 
 Test 74:
-[1m[31mError[0m
-[31mResolution is missing or incorrect[0m
+Error 
+3 : non digit parameters in resolution line.
 
 Test 75:
-[1m[31mError[0m
-[31mResolution is missing or incorrect[0m
+Error 
+3 : non digit parameters in resolution line.
 
 Test 76:
+Error 
+4 : too much parameters in resolution line.
 
 Test 77:
-[1m[31mError[0m
-[31mYour object has wrong parameters[0m (line 5)
+Error 
+9 : invalid colors in amb_light ratio line.
 
 Test 78:
-[1m[31mError[0m
-[31mYour object has wrong parameters[0m (line 5)
+Error 
+9 : invalid colors in amb_light ratio line.
 
 Test 79:
+Error 
+9 : invalid colors in amb_light ratio line.
 
 Test 80:
-[1m[31mError[0m
-[31mYour object has wrong parameters[0m (line 5)
+Error 
+9 : invalid colors in amb_light ratio line.
 
 Test 81:
-[1m[31mError[0m
-[31mYour object has wrong parameters[0m (line 5)
+Error 
+9 : invalid colors in amb_light ratio line.
 
 Test 82:
-[1m[31mError[0m
-[31mYour object has wrong parameters[0m (line 5)
+Error 
+9 : invalid colors in amb_light ratio line.
 
 Test 83:
+Error 
+9 : invalid colors in amb_light ratio line.
 
 Test 84:
+Error 
+9 : invalid colors in amb_light ratio line.
 
 Test 85:
+Error 
+9 : invalid colors in amb_light ratio line.
 
 Test 86:
-[1m[31mError[0m
-[31mYour object has wrong parameters[0m (line 5)
+Error 
+9 : invalid colors in amb_light ratio line.
 
 Test 87:
-[1m[31mError[0m
-[31mYour object has wrong parameters[0m (line 5)
+Error 
+9 : invalid colors in amb_light ratio line.
 
 Test 88:
-[1m[31mError[0m
-[31mYour object has wrong parameters[0m (line 5)
+Error 
+9 : invalid colors in amb_light ratio line.
 
 Test 89:
+Error 
+9 : invalid colors in amb_light ratio line.
 
 Test 90:
+Error 
+9 : invalid colors in amb_light ratio line.
 
 Test 91:
-[1m[31mError[0m
-[31mYour object has wrong parameters[0m (line 5)
+Error 
+9 : invalid colors in amb_light ratio line.
 
 Test 92:
+Error 
+9 : invalid colors in amb_light ratio line.
 
 Test 93:
-[1m[31mError[0m
-[31mResolution is missing or incorrect[0m
+Error 
+3 : non digit parameters in resolution line.
 
 Test 94:
-[1m[31mError[0m
-[31mYour object has wrong parameters[0m (line 4)
+Error 
+7 : invalid square point parameters.
 
 Test 95:
-[1m[31mError[0m
-[31mResolution is missing or incorrect[0m (line 5)
+Error 
+9 : invalid colors in amb_light ratio line.
 
 Test 96:
-[1m[31mError[0m
-[31mYour object has wrong parameters[0m (line 5)
+Error 
+9 : invalid colors in amb_light ratio line.
 
 Test 97:
-[1m[31mError[0m
-[31mResolution is missing or incorrect[0m
+Error 
+3 : non digit parameters in resolution line.
 
 Test 98:
-[1m[31mError[0m
-[31mYour object has wrong parameters[0m (line 4)
+Error 
+7 : invalid square color parameters.
 
 Test 99:
-[1m[31mError[0m
-[31mResolution is missing or incorrect[0m (line 5)
+Error 
+9 : invalid colors in amb_light ratio line.
 
 Test 100:
-[1m[31mError[0m
-[31mYour object has wrong parameters[0m (line 5)
+Error 
+9 : invalid colors in amb_light ratio line.
 
 Test 101:
-[1m[31mError[0m
-[31mResolution is missing or incorrect[0m
+Error 
+3 : non digit parameters in resolution line.
 
 Test 102:
-[1m[31mError[0m
-[31mYour object has wrong parameters[0m (line 4)
+Error 
+7 : invalid square height parameters.
 
 Test 103:
-[1m[31mError[0m
-[31mResolution is missing or incorrect[0m (line 5)
+Error 
+9 : invalid colors in amb_light ratio line.
 
 Test 104:
-[1m[31mError[0m
-[31mYour object has wrong parameters[0m (line 5)
+Error 
+9 : invalid colors in amb_light ratio line.
 
 Test 105:
-[1m[31mError[0m
-[31mResolution is missing or incorrect[0m
+Error 
+3 : non digit parameters in resolution line.
 
 Test 106:
-[1m[31mError[0m
-[31mYour object has wrong parameters[0m (line 4)
+Error 
+7 : invalid square orientation parameters.
 
 Test 107:
-[1m[31mError[0m
-[31mResolution is missing or incorrect[0m (line 5)
+Error 
+9 : invalid colors in amb_light ratio line.
 
 Test 108:
-[1m[31mError[0m
-[31mYour object has wrong parameters[0m (line 5)
+Error 
+9 : invalid colors in amb_light ratio line.
 
 Test 109:
-[1m[31mError[0m
-[31mResolution is missing or incorrect[0m
+Error 
+3 : non digit parameters in resolution line.
 
 Test 110:
+Error 
+7 : invalid square color parameters.
 
 Test 111:
-[1m[31mError[0m
-[31mResolution is missing or incorrect[0m (line 5)
+Error 
+9 : invalid colors in amb_light ratio line.
 
 Test 112:
+Error 
+9 : invalid colors in amb_light ratio line.
 
 Test 113:
-[1m[31mError[0m
-[31mResolution is missing or incorrect[0m
+Error 
+3 : non digit parameters in resolution line.
 
 Test 114:
-[1m[31mError[0m
-[31mYour object has wrong parameters[0m (line 4)
+Error 
+7 : invalid point parameters.
 
 Test 115:
-[1m[31mError[0m
-[31mResolution is missing or incorrect[0m (line 5)
+Error 
+9 : invalid colors in amb_light ratio line.
 
 Test 116:
-[1m[31mError[0m
-[31mYour object has wrong parameters[0m (line 5)
+Error 
+9 : invalid colors in amb_light ratio line.
 
 Test 117:
-[1m[31mError[0m
-[31mResolution is missing or incorrect[0m
+Error 
+3 : non digit parameters in resolution line.
 
 Test 118:
-[1m[31mError[0m
-[31mYour object has wrong parameters[0m (line 4)
+Error 
+7 : invalid point parameters.
 
 Test 119:
-[1m[31mError[0m
-[31mResolution is missing or incorrect[0m (line 5)
+Error 
+9 : invalid colors in amb_light ratio line.
 
 Test 120:
-[1m[31mError[0m
-[31mYour object has wrong parameters[0m (line 5)
+Error 
+9 : invalid colors in amb_light ratio line.
 
 Test 121:
-[1m[31mError[0m
-[31mResolution is missing or incorrect[0m
+Error 
+3 : non digit parameters in resolution line.
 
 Test 122:
-[1m[31mError[0m
-[31mWhat would I do with a second resolution ?[0m (line 2)
+Error 
+9 : invalid colors in amb_light ratio line.
 
 Test 123:
-[1m[31mError[0m
-[31mResolution is missing or incorrect[0m (line 5)
+Error 
+9 : invalid colors in amb_light ratio line.
 
 Test 124:
+Error 
+9 : invalid colors in amb_light ratio line.
 
 Test 125:
-[1m[31mError[0m
-[31mResolution is missing or incorrect[0m
+Error 
+3 : non digit parameters in resolution line.
 
 Test 126:
-[1m[31mError[0m
-[31mWhat would I do with a second resolution ?[0m (line 2)
+Error 
+9 : invalid colors in amb_light ratio line.
 
 Test 127:
-[1m[31mError[0m
-[31mResolution is missing or incorrect[0m (line 5)
+Error 
+9 : invalid colors in amb_light ratio line.
 
 Test 128:
+Error 
+9 : invalid colors in amb_light ratio line.
 
 Test 129:
-[1m[31mError[0m
-[31mResolution is missing or incorrect[0m
+Error 
+3 : non digit parameters in resolution line.
 
 Test 130:
-[1m[31mError[0m
-[31mWhat would I do with a second resolution ?[0m (line 2)
+Error 
+9 : invalid colors in amb_light ratio line.
 
 Test 131:
-[1m[31mError[0m
-[31mResolution is missing or incorrect[0m (line 5)
+Error 
+9 : invalid colors in amb_light ratio line.
 
 Test 132:
-[1m[31mError[0m
-[31mYour object has wrong parameters[0m (line 5)
+Error 
+9 : invalid colors in amb_light ratio line.
 
 Test 133:
-[1m[31mError[0m
-[31mResolution is missing or incorrect[0m
+Error 
+3 : non digit parameters in resolution line.
 
 Test 134:
-[1m[31mError[0m
-[31mYour object has wrong parameters[0m (line 6)
+Error 
+9 : invalid colors in amb_light ratio line.
 
 Test 135:
-[1m[31mError[0m
-[31mResolution is missing or incorrect[0m (line 5)
+Error 
+9 : invalid colors in amb_light ratio line.
 
 Test 136:
-[1m[31mError[0m
-[31mYour object has wrong parameters[0m (line 5)
+Error 
+9 : invalid colors in amb_light ratio line.
 
 Test 137:
-[1m[31mError[0m
-[31mResolution is missing or incorrect[0m
+Error 
+3 : non digit parameters in resolution line.
 
 Test 138:
+Error 
+9 : invalid colors in amb_light ratio line.
 
 Test 139:
-[1m[31mError[0m
-[31mResolution is missing or incorrect[0m (line 5)
+Error 
+9 : invalid colors in amb_light ratio line.
 
 Test 140:
+Error 
+9 : invalid colors in amb_light ratio line.
 
 Test 141:
-[1m[31mError[0m
-[31mResolution is missing or incorrect[0m
+Error 
+3 : non digit parameters in resolution line.
 
 Test 142:
-[1m[31mError[0m
-[31mYour object has wrong parameters[0m (line 6)
+Error 
+9 : invalid colors in amb_light ratio line.
 
 Test 143:
-[1m[31mError[0m
-[31mResolution is missing or incorrect[0m (line 5)
+Error 
+9 : invalid colors in amb_light ratio line.
 
 Test 144:
-[1m[31mError[0m
-[31mYour object has wrong parameters[0m (line 5)
+Error 
+9 : invalid colors in amb_light ratio line.
 
 Test 145:
-[1m[31mError[0m
-[31mResolution is missing or incorrect[0m
+Error 
+3 : non digit parameters in resolution line.
 
 Test 146:
-[1m[31mError[0m
-[31mYour object has wrong parameters[0m (line 5)
+Error 
+3 : non digit parameters in amb_light line.
 
 Test 147:
-[1m[31mError[0m
-[31mResolution is missing or incorrect[0m (line 5)
+Error 
+9 : invalid colors in amb_light ratio line.
 
 Test 148:
-[1m[31mError[0m
-[31mYour object has wrong parameters[0m (line 5)
+Error 
+9 : invalid colors in amb_light ratio line.
 
 Test 149:
-[1m[31mError[0m
-[31mResolution is missing or incorrect[0m
+Error 
+3 : non digit parameters in resolution line.
 
 Test 150:
-[1m[31mError[0m
-[31mYour object has wrong parameters[0m (line 5)
+Error 
+9 : invalid colors in amb_light ratio line.
 
 Test 151:
-[1m[31mError[0m
-[31mResolution is missing or incorrect[0m (line 5)
+Error 
+9 : invalid colors in amb_light ratio line.
 
 Test 152:
-[1m[31mError[0m
-[31mYour object has wrong parameters[0m (line 5)
+Error 
+9 : invalid colors in amb_light ratio line.
 
 Test 153:
-[1m[31mError[0m
-[31mResolution is missing or incorrect[0m
+Error 
+3 : non digit parameters in resolution line.
 
 Test 154:
-[1m[31mError[0m
-[31mYour object has wrong parameters[0m (line 5)
+Error 
+3 : non digit parameters in amb_light line.
 
 Test 155:
-[1m[31mError[0m
-[31mResolution is missing or incorrect[0m (line 5)
+Error 
+9 : invalid colors in amb_light ratio line.
 
 Test 156:
-[1m[31mError[0m
-[31mYour object has wrong parameters[0m (line 5)
+Error 
+9 : invalid colors in amb_light ratio line.
 
 Test 157:
-[1m[31mError[0m
-[31mResolution is missing or incorrect[0m
+Error 
+3 : non digit parameters in resolution line.
 
 Test 158:
-[1m[31mError[0m
-[31mYour object has wrong parameters[0m (line 5)
+Error 
+3 : non digit parameters in amb_light line.
 
 Test 159:
-[1m[31mError[0m
-[31mResolution is missing or incorrect[0m (line 5)
+Error 
+9 : invalid colors in amb_light ratio line.
 
 Test 160:
-[1m[31mError[0m
-[31mYour object has wrong parameters[0m (line 5)
+Error 
+9 : invalid colors in amb_light ratio line.
 
 Test 161:
-[1m[31mError[0m
-[31mResolution is missing or incorrect[0m
+Error 
+3 : non digit parameters in resolution line.
 
 Test 162:
-[1m[31mError[0m
-[31mYour object has wrong parameters[0m (line 5)
+Error 
+3 : non digit parameters in amb_light line.
 
 Test 163:
-[1m[31mError[0m
-[31mResolution is missing or incorrect[0m (line 5)
+Error 
+9 : invalid colors in amb_light ratio line.
 
 Test 164:
-[1m[31mError[0m
-[31mYour object has wrong parameters[0m (line 5)
+Error 
+9 : invalid colors in amb_light ratio line.
 
 Test 165:
-[1m[31mError[0m
-[31mResolution is missing or incorrect[0m
+Error 
+3 : non digit parameters in resolution line.
 
 Test 166:
-[1m[31mError[0m
-[31mYour object has wrong parameters[0m (line 5)
+Error 
+3 : non digit parameters in amb_light line.
 
 Test 167:
-[1m[31mError[0m
-[31mResolution is missing or incorrect[0m (line 5)
+Error 
+9 : invalid colors in amb_light ratio line.
 
 Test 168:
-[1m[31mError[0m
-[31mYour object has wrong parameters[0m (line 5)
+Error 
+9 : invalid colors in amb_light ratio line.
 
 Test 169:
-[1m[31mError[0m
-[31mResolution is missing or incorrect[0m
+Error 
+3 : non digit parameters in resolution line.
 
 Test 170:
+Error 
+9 : invalid colors in amb_light ratio line.
 
 Test 171:
-[1m[31mError[0m
-[31mResolution is missing or incorrect[0m (line 5)
+Error 
+9 : invalid colors in amb_light ratio line.
 
 Test 172:
+Error 
+9 : invalid colors in amb_light ratio line.
 
 Test 173:
-[1m[31mError[0m
-[31mResolution is missing or incorrect[0m
+Error 
+3 : non digit parameters in resolution line.
 
 Test 174:
-[1m[31mError[0m
-[31mYour object has wrong parameters[0m (line 5)
+Error 
+9 : invalid colors in amb_light ratio line.
 
 Test 175:
-[1m[31mError[0m
-[31mResolution is missing or incorrect[0m (line 5)
+Error 
+9 : invalid colors in amb_light ratio line.
 
 Test 176:
-[1m[31mError[0m
-[31mYour object has wrong parameters[0m (line 5)
+Error 
+9 : invalid colors in amb_light ratio line.
 
 Test 177:
-[1m[31mError[0m
-[31mYour object has wrong parameters[0m (line 5)
+Error 
+9 : invalid colors in amb_light ratio line.
 
 Test 178:
-[1m[31mError[0m
-[31mYour object has wrong parameters[0m (line 5)
+Error 
+9 : invalid colors in amb_light ratio line.
 
 Test 179:
-[1m[31mError[0m
-[31mYour object has wrong parameters[0m (line 5)
+Error 
+9 : invalid colors in amb_light ratio line.
 
 Test 180:
-[1m[31mError[0m
-[31mYour object has wrong parameters[0m (line 5)
+Error 
+9 : invalid colors in amb_light ratio line.
 
 Test 181:
+Error 
+9 : invalid colors in amb_light ratio line.
 
 Test 182:
+Error 
+9 : invalid colors in amb_light ratio line.
 
 Test 183:
+Error 
+9 : invalid colors in amb_light ratio line.
 
 Test 184:
-[1m[31mError[0m
-[31mYour object has wrong parameters[0m (line 5)
+Error 
+9 : invalid colors in amb_light ratio line.
 
 Test 185:
+Error 
+9 : invalid colors in amb_light ratio line.
 
 Test 186:
+Error 
+9 : invalid colors in amb_light ratio line.
 
 Test 187:
-[1m[31mError[0m
-[31mYour object has wrong parameters[0m (line 5)
+Error 
+9 : invalid colors in amb_light ratio line.
 
 Test 188:
+Error 
+9 : invalid colors in amb_light ratio line.
 
 Test 189:
-[1m[31mError[0m
-[31mYour object has wrong parameters[0m (line 5)
+Error 
+9 : invalid colors in amb_light ratio line.
 
 Test 190:
+Error 
+9 : invalid colors in amb_light ratio line.
 
 Test 191:
+Error 
+9 : invalid colors in amb_light ratio line.
+
+Test 192:
+Error 
+9 : invalid colors in amb_light ratio line.
