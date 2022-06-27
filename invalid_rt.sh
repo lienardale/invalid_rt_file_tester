@@ -109,7 +109,7 @@ function run(){
 	fi
 	i=0
 	while true; do
-		if [[ "$i" -gt 192 ]]; then
+		if [[ "$i" -gt 191 ]]; then
 			break
 		fi
 		if ! (("$i" % 10)) ; then

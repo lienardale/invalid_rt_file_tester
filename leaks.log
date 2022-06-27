@@ -1,33 +1,32 @@
 Test no arg:
-==119713== All heap blocks were freed -- no leaks are possible
+==13646== All heap blocks were freed -- no leaks are possible
 Test non-exist0:
-==119721== All heap blocks were freed -- no leaks are possible
-Test non-exist0:
-==119730== All heap blocks were freed -- no leaks are possible
+==13654== All heap blocks were freed -- no leaks are possible
+Test non-exist1:
+==13672== All heap blocks were freed -- no leaks are possible
 Test multi-arg0:
-==119738== All heap blocks were freed -- no leaks are possible
+==13680== All heap blocks were freed -- no leaks are possible
 Test multi-arg1:
-==119749== All heap blocks were freed -- no leaks are possible
+==13693== All heap blocks were freed -- no leaks are possible
 Test .cube:
-==119758== All heap blocks were freed -- no leaks are possible
-Test 0:==119767== All heap blocks were freed -- no leaks are possible
+Test 0:==13713== All heap blocks were freed -- no leaks are possible
 ✅
-Test 1:==119776== All heap blocks were freed -- no leaks are possible
+Test 1:==13738== All heap blocks were freed -- no leaks are possible
 ✅
-Test 2:==119786== All heap blocks were freed -- no leaks are possible
+Test 2:==13753== All heap blocks were freed -- no leaks are possible
 ✅
-Test 3:==119798== All heap blocks were freed -- no leaks are possible
+Test 3:==13763== All heap blocks were freed -- no leaks are possible
 ✅
-Test 4:==119807== All heap blocks were freed -- no leaks are possible
+Test 4:==13772== All heap blocks were freed -- no leaks are possible
 ✅
-Test 5:==119816== All heap blocks were freed -- no leaks are possible
+Test 5:==13800== All heap blocks were freed -- no leaks are possible
 ✅
-Test 6:==119826== All heap blocks were freed -- no leaks are possible
+Test 6:==13819== All heap blocks were freed -- no leaks are possible
 ✅
-Test 7:==119839== All heap blocks were freed -- no leaks are possible
+Test 7:==13828== All heap blocks were freed -- no leaks are possible
 ✅
-Test 8:==119848== All heap blocks were freed -- no leaks are possible
+Test 8:==13850== All heap blocks were freed -- no leaks are possible
 ✅
-Test 9:==119857== All heap blocks were freed -- no leaks are possible
+Test 9:==13874== All heap blocks were freed -- no leaks are possible
 ✅
 Test 10:
